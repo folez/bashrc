@@ -42,9 +42,9 @@ alias pf="cls && phpunit --filter"
 # ========================= DOCKER ========================= #
 
 alias d="docker"
-alias dc="docker-compose"
-alias dcu="docker-compose up"
-alias dcub="docker-compose up --build"
+alias dc="docker compose"
+alias dcu="docker compose up"
+alias dcub="docker compose up --build"
 alias dps="docker ps"
 alias ds="docker stop $(docker ps -qa)"
 
